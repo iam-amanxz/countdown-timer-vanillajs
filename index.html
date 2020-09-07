@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="countdown-container">
+      <div class="title" id="title">Until New Year 2021</div>
+      <div class="date">
+        <div class="countdown-el months">
+          <h1 class="num" id="months">2</h1>
+          <p class="text">months</p>
+        </div>
+        <div class="countdown-el days">
+          <h1 class="num" id="days">3</h1>
+          <p class="text">days</p>
+        </div>
+        <div class="countdown-el hours">
+          <h1 class="num" id="hours">9</h1>
+          <p class="text">hours</p>
+        </div>
+        <div class="countdown-el minutes">
+          <h1 class="num" id="minutes">58</h1>
+          <p class="text">minutes</p>
+        </div>
+        <div class="countdown-el seconds">
+          <h1 class="num" id="seconds">16</h1>
+          <p class="text">seconds</p>
+        </div>
+      </div>
+    </div>
+    <div class="form-container">
+      <form id="form" class="form">
+        <div class="event__name">
+          <label for="event-name">Event</label>
+          <input
+            type="text"
+            id="event-name"
+            name="event-name"
+            placeholder="New Year 2021"
+          />
+        </div>
+        <div class="event__date">
+          <label for="event-date">Date</label>
+          <input
+            type="text"
+            id="event-date"
+            name="event-date"
+            placeholder="1 Jan 2021"
+          />
+        </div>
+        <button type="submit" id="submit" class="btn">Calculate</button>
+      </form>
+    </div>
+  </body>
+</html>
